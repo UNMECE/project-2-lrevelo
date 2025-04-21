@@ -155,7 +155,7 @@ int main() {
 	for (int i = 0; i < 5; i++) {
 		Physics_Student* physicsStudent = new Physics_Student;
 		physicsStudent->setName(physicsFirstNames[i], physicsLastNames[i]);
-		physicsStudent->setGPA(3.3f + i * 0.12f);
+		physicsStudent->setGPA(2.4f + i * 0.15f);
 		physicsStudent->setGradYear(2024 + i);
 		physicsStudent->setGradSemester("Fall");
 		physicsStudent->setEnrolledYear(2020 + i);
